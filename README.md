@@ -5,7 +5,7 @@ You are encouraged to submit the test answers within 48 hours; however, we under
 
 Test Data URL: https://dii-test.s3.amazonaws.com/players.json
 
-Please use the above URL provided to fetch the test data. Fork this repository and submit a PR when you are done with your solution. _Note_: Do not share your solution or make it public so other candidates can gain access.
+Please use the above URL provided to fetch the test data. Fork this repository and submit a PR when you are done with your solution. _Note_: We encourage you to use a [private repo](https://help.github.com/en/articles/setting-repository-visibility#making-a-repository-private) so that other candidates cannot gain access to your solution.
 
 ## Problem 1 - Filtering
 Create a web interface that allows a user:
