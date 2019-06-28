@@ -58,7 +58,7 @@ export default {
 </template>
 
 <style lang="scss">
-#app {
+.v-tabs {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
