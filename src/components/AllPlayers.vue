@@ -1,14 +1,18 @@
 <script>
 export default {
-    
 }
 </script>
 
 <template>
-    <h2>all players</h2>
+    <div>
+        <h2>ALL players</h2>
+    </div>
 </template>
 
 <style lang="scss" scoped>
 
-</style>
+    h2 {
+        color: red;
+    }
 
+</style>

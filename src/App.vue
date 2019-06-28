@@ -1,11 +1,15 @@
 <script>
 
 import AddPlayer from '@/components/AddPlayer.vue';
+import AllPlayers from '@/components/AllPlayers.vue';
+import FilterPlayers from '@/components/FilterPlayers.vue';
 
 
 export default {
   components: {
-    AddPlayer
+    AddPlayer,
+    AllPlayers,
+    FilterPlayers
   },
     data () {
       return {
@@ -41,14 +45,16 @@ export default {
 
     <v-tab-item :key="1">
       <v-card flat>
-        <v-card-text>{{ text }}</v-card-text>
+        <AllPlayers/>
       </v-card>
     </v-tab-item>
+
     <v-tab-item :key="2">
       <v-card flat>
-        <v-card-text>{{ text }}</v-card-text>
+        <FilterPlayers/>
       </v-card>
     </v-tab-item>
+
     <v-tab-item :key="3">
       <v-card flat>
         <AddPlayer/>
