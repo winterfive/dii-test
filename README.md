@@ -1,4 +1,4 @@
-# playerapp
+# teamapp
 
 ## Project setup
 ```
