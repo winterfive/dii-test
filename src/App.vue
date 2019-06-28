@@ -1,11 +1,16 @@
 <script>
 
-import AddPlayer from './components/AddPlayer.vue';
+import AddPlayer from '@/components/AddPlayer.vue';
 
 
 export default {
+  components: {
+    AddPlayer
+  },
     data () {
-      return {}
+      return {
+        text: 'testing'
+      }
     }
   };
 </script>
